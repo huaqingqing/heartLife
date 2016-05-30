@@ -1,0 +1,273 @@
+@charset 'utf-8';
+body {
+font-family: 'helvetica neue',arial,'hiragino sans gb',stheiti,'wenquanyi micro hei', \5FAE\8F6F\96C5\9ED1,\5B8B\4F53,sans-serif;
+}
+.lun img{
+	height: 450px;
+}
+.nav1 ul{
+	margin-right: 15%;
+}
+.nav1 ul li{
+	font-size: 13px;
+	margin-left: 1%;
+}
+.navs,h1{
+	float: left;
+}
+.nav2 .tubiao {
+  display: none;
+}
+.nav2 h1{
+	margin-top: 4px;
+	margin-left: 12%;
+
+}
+.nav2 .navs{
+	display: block;
+	margin-top: 1%;
+	margin-left: 6%;
+}
+.nav2 li{
+	float: left;
+	margin-right:16px;
+	width: 100px;
+}
+.nav2 li a{
+   display: block;
+   color: #ffa500;
+   font-size: 18px;
+   font-weight: bold;
+   text-decoration: none;
+   height: 50px;
+   padding-top:15px;
+   padding-left: 10px;
+}
+.navs .actives{
+   background-color: #ffba01;
+   color: #fff;
+   border-radius:6px;
+  	transition: all 0.6s ease;
+
+}
+.bigLinkBox {
+clear: both;
+position: relative;
+z-index: 2;
+height: 0;
+}
+.bigLink {
+width: 542px;
+height: 128px;
+position: absolute;
+left: 50%;
+margin-left: -271px;
+top: -64px;
+font-size: 0;
+}
+.daohang{
+	display: none;
+}
+.box{
+max-width: 1000px;
+margin-right: auto;
+margin-left: auto;
+}
+.box2{
+	margin-bottom: 20px;
+}
+.tu img{
+	display: block;
+	float: right;
+	margin-top: -13%;
+	margin-right: -17%;
+}
+.photo1{
+	display: block;
+	background: url(../image/bigbg02.jpg) center top no-repeat;
+	background-attachment: fixed;
+	height: 230px;
+}
+.links ul li{
+	float: left;
+	margin: 0 29px;
+	width: 142px;
+}
+.links{
+	margin-top: 10%;
+}
+#s2 .box{
+   margin-top:5%;
+}
+.links .n{
+	font-size: 26px;
+	color: #555;
+	font-weight: normal;
+}
+#s2 .text{
+  font-size: 30px;
+  margin-left: 25%;
+  margin-top: 5%;
+  color: #8f8f8f;
+  height: 60px;
+  line-height: 60px;
+}
+#s2 .bg{
+  width: 100%;
+  background: url(../image/i_line02_1.png) bottom no-repeat;
+  height: 150px;
+ margin-left:1%;
+}
+.ipart02_img {
+    width: 74px;
+    height: 71px;
+    position: absolute;
+    right: 50%;
+    margin-right: -600px;
+    top: 1854px;
+}
+#s3{
+background: url(../image/bigbg01.jpg) center top no-repeat;
+background-attachment: fixed;
+padding-bottom: 40px;
+}
+.tab_hd li.tab_t_cur {
+	margin-left: 300px;
+ background: #ffba01;
+color: #fff;
+}
+.iNewsSlider {
+width: 100%;
+height: 360px;
+}
+.slide_wrap {
+position: absolute;
+width: 100%;
+height: 100%;
+overflow: hidden;
+}
+#iNewsSlider {
+height: 360px;
+margin-top: 50px;
+}
+.slide {
+position: relative;
+overflow: hidden;
+
+}
+.slide_c {
+float: left;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+overflow: hidden;
+z-index: 1;
+}
+
+.slide_c h3{
+	color: #fff;
+	overflow: hidden;
+	font-weight: normal;
+}
+.slide_c .text{
+	color: #fff;
+}
+.inl {
+width: 300px;
+height: auto;
+float: left;
+margin: 0 16px;
+overflow: hidden;
+border-radius: 5px;
+padding-bottom: 15px;
+margin-bottom: 55px;
+background: rgba(255,186,1,.20);
+}
+.inl .img {
+height: 0;
+overflow: hidden;
+padding-bottom: 60%;
+display: block;
+background: #fff;
+}
+
+.wrap{
+	background: url(../image/i_line01.png)  center 64px no-repeat;
+	padding-top: 100px;
+}
+.box2 .text{
+	float: left;
+	font-size: 15px;
+	color: #555;
+}
+.borser{
+	display: none;
+}
+#s2 .wrap{
+	background: url(../image/i_line02.png)  center 64px no-repeat;
+	padding-top: 20px;
+	height: 750px;
+	width: 100%;
+}
+.border1,.border2,.border3,.border4,.border5{
+	display: none;
+}
+#s4 .wrap{
+	background: url(../image/ipart4bg.png)  center 64px no-repeat;
+	/*padding-top: 20px;
+	height: 750px;*/
+}
+#s4 .text {
+margin-left: 26%;
+margin-top: -6%;
+}
+.row{
+	/*padding-left: 10px;*/
+}
+.row li {
+width: 151px;
+float: left;
+margin-left: 73px;
+}
+ .bi01{
+ background-position: 0 0;
+ margin-left: 45px;
+ margin-top: 26px;
+}
+#ul_row .bi02 {
+background-position: -302px 0;
+margin-top: 90px;
+}
+#ul_row .bi03 {
+background-position: -151px 0;
+margin-left:-70px;
+margin-top: 30px;
+}
+#ul_row .bi04 {
+background-position: -453px 0;
+margin-top: -90px;
+margin-left: 145px
+}
+.inl:hover{
+	background-color: #ffa500;
+	transition: all 0.3 ease;
+}
+.boy{
+	display: block;
+	margin-left: 6%;
+}
+.share{
+	margin-left: 40%;
+}
+.pageFooter .links a{
+	 color: #fff;
+	 font-size: 16px;
+	 float: left;
+	 width: 100px;
+}
+.pageFooter .infos{
+ margin-left: -100px;
+   margin-top: 60px;
+}
+

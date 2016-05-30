@@ -1,0 +1,10 @@
+$(function(){
+	$('.service_scroll').scroll({prev:'.sb_prev',next:'.sb_next'});
+	$('.ssl').mouseenter(function(){
+		$(this).find('.n').stop().animate({top:'120%'},'fast');
+		$(this).find('.cover').stop().animate({top:0},'fast');
+	}).mouseleave(function(){
+		$(this).find('.n').stop().animate({top:'50%'},'fast');
+		$(this).find('.cover').stop().animate({top:'100%'},'fast');
+	});
+});

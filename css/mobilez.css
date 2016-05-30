@@ -1,0 +1,110 @@
+@charset 'utf-8';
+.nav2 .navs {
+  display: none;
+}
+.tubiao {
+  display: block;
+}
+.nav2 .tubiao {
+  display: block;
+  margin-left: 93%;
+  margin-top: -12%;
+}
+.nav2 .tubiao .iconfont {
+  font-size: 28px;
+  color: #333;
+  cursor: pointer;
+}
+.nav2 .tubiao .iconfont:hover {
+  color: #FFA500;
+}
+.daohang {
+  display: none;
+  height: 500px;
+  width: 300px;
+  background-color: #333;
+  z-index: 30;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.daohang ul li {
+  line-height: 20px;
+  height: 20px;
+  width: 300px;
+  padding-top: 20px;
+  border-bottom: 1px solid #2b2b2b;
+}
+.daohang ul li a {
+  text-decoration: none;
+  color: #adadad;
+  width: 100px;
+}
+.c_nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #cccccc;
+}
+.c_nav .c1 {
+  margin-left: 10%;
+  color: #333;
+  font-size: 26px;
+}
+.c_nav .c2 {
+  display: block;
+  margin-left: 10%;
+  color: #cccccc;
+}
+.block {
+  margin-left: 13%;
+  margin-top: 4%;
+}
+.block .s1 {
+  border: 1px solid #cccccc;
+  padding: 15px 10%;
+  font-size: 26px;
+}
+.block .s2 {
+  margin-left: -5px;
+  border: 1px solid #cccccc;
+  padding: 15px 10%;
+  font-size: 26px;
+}
+.des {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
+.des .wraps img {
+  width: 98%;
+  height: 350px;
+}
+.des .wraps .name {
+  width: 97%;
+  padding: 5px;
+  margin-top: -4px;
+}
+.des .wraps .xq {
+  width: 97%;
+  padding: 5px;
+}
+.des .wraps .yd {
+  width: 97%;
+  padding: 5px;
+  margin-top: -2px;
+}
+.pageFooter .links a {
+  color: #fff;
+  font-size: 16px;
+  float: left;
+  margin-left: 4px;
+}
+.share {
+  margin-left: 25%;
+}
+.pageFooter .infos {
+  margin-left: 5%;
+  margin-top: 60px;
+}
